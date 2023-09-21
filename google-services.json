@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1074622777127",
+    "project_id": "prelimexamsarzuelo1",
+    "storage_bucket": "prelimexamsarzuelo1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074622777127:android:e38e9e822e1cd1fb4f4b02",
+        "android_client_info": {
+          "package_name": "ph.edu.uic.prelimexamsarzuelo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6-whs41tZM6f28BdokZBYUq-DusMaDV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
