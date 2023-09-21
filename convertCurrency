@@ -1,0 +1,23 @@
+fun convertCurrency(amount: Double, exchangeRate: Double): Double {
+    return amount * exchangeRate
+}
+
+fun main() {
+    val usdToYenRate = 147.73
+    val usdToWonRate = 1324.68
+    val usdToEurRate = 0.92
+    val usdToPhpRate = 55.50
+
+
+    val amountInUSD = 1.0
+
+    val amountInPHP = convertCurrency(amountInUSD, usdToPhpRate)
+    val amountInYen = convertCurrency(amountInUSD, usdToYenRate)
+    val amountInEUR = convertCurrency(amountInUSD, usdToEurRate)
+    val amountInWon = convertCurrency(amountInUSD, usdToWonRate)
+
+    println("$amountInUSD USD is equal to $amountInPHP PHP")
+    println("$amountInUSD USD is equal to $amountInYen YEN")
+    println("$amountInUSD USD is equal to $amountInEUR EUR")
+    println("$amountInUSD USD is equal to $amountInWon WON")
+}
